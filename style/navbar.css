@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: var(--main-height-nav);
+    background-color: var(--main-background);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#name{
+    background-color: var(--main-accent);
+    color: black;
+    margin: 0 5px;
+    padding:7px;
+    border-radius: 7px;
+}
+nav a {
+    background-color: var(--main-primary);
+    padding: 5px;
+    margin-right: 2px;
+    color: var(--main-background);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 7px;
+}

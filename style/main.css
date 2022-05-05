@@ -1,0 +1,20 @@
+/*
+ #D8C1F5 
+ #081502
+ #FFFFFF
+ #DFFEF1
+*/
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --main-primary:         hsl(267, 65%, 70%);
+    --main-accent:          hsl(56, 91%, 56%);
+    --main-third-accent:    hsl(155, 94%, 90%);
+    --main-background:      hsl(0, 0%, 10%);
+    --main-surface:         hsl(0, 0%, 15%);
+    --main-height-nav: 60px;
+    --card-border-radius: 10px;
+}

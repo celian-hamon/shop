@@ -1,0 +1,90 @@
+body {
+    background-color: var(--main-background);
+    min-height: 100vh;
+    color: rgb(227, 227, 227);
+}
+.container {
+    transform: translateY(var(--main-height-nav));
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+img {
+    width: 33%;
+    padding: 0 10px 0 10px;
+    height: auto;
+    border-radius: 7px;
+    object-fit: cover;
+}
+.product-info {
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+    border-radius: 7px;
+    background-color: var(--main-surface);
+}
+.product-form{
+    width: 33%;
+    height: auto;
+}
+.product-info h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.product-info > * {
+    padding: 20px 20px 0 20px;
+}
+form {
+    width: 100%;
+}
+div.form-field {
+    background: none;
+
+    margin: 15px 0 15px 0;
+    padding: 10px;
+
+    background: var(--main-third-accent);
+    transition: background 0.3s;
+    border-radius: 5px;
+
+    width: fit-content;
+
+    display: flex;
+    flex-direction: row;
+}
+
+div.form-field:focus-within {
+    background: var(--main-accent);
+}
+
+form input {
+    font-size: 1.1rem;
+    background: inherit;
+    border: none;
+    width: auto;
+    outline: none;
+}
+
+form input::placeholder {
+    color: black;
+}
+
+i {
+    color: var(--main-background);
+    padding: 2px 5px 0 0;
+}
+#submit-button {
+    all: unset;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    width: auto;
+    background-color: var(--main-accent);
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px;
+}
